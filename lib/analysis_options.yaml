@@ -1,0 +1,15 @@
+# Dart/Flutter プロジェクトの静的解析設定
+analyzer:
+  # 除外するフォルダを指定
+  exclude:
+    - build/**
+    - .dart_tool/**
+    - .git/**
+    - .idea/**
+
+linter:
+  rules:
+    # ここに好きな lint ルールを追加できます
+    # 例: 
+    # always_use_const_constructors: true
+    # prefer_final_fields: true
